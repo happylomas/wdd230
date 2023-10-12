@@ -1,0 +1,37 @@
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #119DA4;
+    --secondary-color: #0C7489;
+    --accent1-color: #13505B;
+    --accent2-color: #D7D9CE;
+    --nav-hover-link-color: white;
+    /* --nav-hover-link-color: #040404; */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: #0C7489 solid;
+}
+
+body {
+    width: 100%;
+    background-color: #119DA4;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

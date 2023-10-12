@@ -1,13 +1,26 @@
-
+* {
+    /* width: auto; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 600px;
+    width: 100%;
+    
     /* text-align: center  ; */
 }
-
+.flex nav {
+    display: flex;
+}
+nav {
+	max-width: 700px;
+	margin: 1rem auto;
+}
 nav {
     /* background-color: rgb(25, 28, 32); */
+    display: flex;
     background: #eee;
     height: 250px;
     width: 100%;
@@ -17,11 +30,25 @@ nav {
     /* margin: 50px; */
 
 }
+
+.navigation {
+	display: block;
+	flex-direction: column;
+	list-style: none;
+	/* background-color: #333; */
+	color: #fff;
+    max-width: 700px;
+	margin: 1rem auto;
+}
+
+
 nav ul {
     margin-top: 1px;
+    /* display: flex; */
 }
 nav ul li {
     line-height: 40px;
+    display: flex;
 }
 
 img {
@@ -37,10 +64,12 @@ header {
     display: grid;
     background-color: #396E94;
     grid-template-columns: 1fr 1fr;
-    width: 600px;
+    width: 100%;
     border: 20px;
     height: 150px;
     /* margin: 50px; */
+    max-width: 700px;
+	margin: 1rem auto;
 }
 
 
@@ -54,13 +83,75 @@ header {
 
 h2 {
     text-align: center;
-    width: 600px;
+    /* width: 600px; */
     border: 20px;
 }
 
 footer {
-    width: 600px;
+    width: 100%;
     text-align: center;
     background: #396E94;
     height: 50px;
+}
+.card {
+    max-width: 700px;
+	margin: 1rem auto;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	/* top: 1rem; */
+	/* right: 1rem; */
+    /* max-width: 700px; */
+	/* margin: 1rem auto; */
+}
+
+#menu::before {
+	content: "☰";
+}
+#menu.show::before {
+    content: "🎁";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+#menu.close::after {
+	content: "🐱‍💻";
+}
+
+.card ul li {
+    padding: 5px;
+    margin: 10px;
+    border: 10px;
+    font-size: 1.5rem;
+}
+
+.show li {
+    display: block;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 40em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    #menu {
+        display: none;
+    }
 }

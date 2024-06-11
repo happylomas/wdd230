@@ -15,11 +15,11 @@
     <!-- <img src="images/favicon.ico" alt="icon"> -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <script src="scripts/getdates.js"></script>
+    <link rel="stylesheet" href="styles/mobile.css">
 </head>
 <body>
     <header>
-        <img src="images/mypic.jpeg" alt="photo">
+        <img src="images/my_profile_pic.jpeg" alt="photo">
         <h1>Prince Ebere</h1>
     </header>
     <!-- copy of nav> -->
@@ -28,9 +28,9 @@
 
 
 
-    <div class="navigation">
+    <div class="navi">
         <nav> 
-            <button id="menu"></button>
+            <button id="menu" onclick="hambutton()">☰</button>
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <!-- <li><a href="#news">Site Plan</a></li> -->
@@ -69,5 +69,6 @@
         <p>Prince Ebere: &copy; Abia State, Nigeria</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>

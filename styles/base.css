@@ -38,8 +38,8 @@ img {
 }
 
 nav {
-    background-color: gray;
-    display: grid;
+    background-color: rgb(56, 64, 68);
+    display: block;
     border: 50px;
     margin: 50px;
     margin-top: 5px;
@@ -47,11 +47,11 @@ nav {
     /* grid-template-columns: auto auto; */
 }
 
-nav ul {
+/* nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-}
+} */
 
 nav a {
     display: flex;
@@ -93,10 +93,23 @@ main {
 }
 
 h2 {
-    background-color: blue;
+    background-color: rgb(25, 25, 49);
+    color: white;
+    border: 50px;
+    margin: 5px;
 }
 section {
     list-style: none;
+}
+
+
+li {
+    border: 50px;
+}
+
+li a {
+    border: 50px;
+    margin: 5px;
 }
 
 footer {
@@ -107,4 +120,7 @@ footer {
     width: auto;
     margin: 50px;
 	margin: auto 50px;
+    color: white;
 }
+
+

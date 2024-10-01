@@ -1,7 +1,21 @@
 
 
-// const mainnav = document.querySelector(".navigation");
-// const hambutton = document.querySelector("#menu");
+const hamburgerElement = document.querySelector("#myButton");
+const navElement = document.querySelector(".navigation");
+
+hamburgerElement.addEventListener("click", () => {
+    navElement.classList.toggle("open");
+    hamburgerElement.classList.toggle("open");
+});
+
+// Dark Mood
+const darkmood = document.querySelector("#darkBtn");
+darkmood.addEventListener("click", () => {
+    main.classList.toggle("dark");
+});
+
+
+
 
 
 // hambutton.addEventListener("click", () => {

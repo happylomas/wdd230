@@ -15,6 +15,7 @@ header {
     margin: 50px;
     /* max-width: 700px; */
 	margin: auto 50px;
+    /* position: relative; */
 }
 
 header span {
@@ -123,4 +124,44 @@ footer {
     color: white;
 }
 
+#myButton::before {
+    content: "\2630"
+}
+
+#mybutton.open::before {
+    content: "X";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 2rem 2vw;
+}
+
+ul.navigation li a {
+    display: block;
+    padding: 3rem 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+ul.navigation {
+    display: none;
+    list-style-type: none;
+}
+
+ul.navigation.open {
+    display: block;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    /* width: 24px; */
+}
 

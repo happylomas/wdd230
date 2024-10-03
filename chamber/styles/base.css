@@ -1,0 +1,301 @@
+* {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    background-color: #979a9c;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    align-items: center;
+    padding: 1em;
+    text-align: justify;
+    width: auto;
+    border: 50px;
+    height: 150px;
+    margin: 50px;
+	margin: auto 50px;
+}
+
+/* header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  } */
+
+header span {
+    color: #000000;
+    /* border: 50px; */
+    /* margin-top: 50px; */
+    text-justify: auto;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* display: block; */
+    /* grid-column: 1 / 3; */
+    /* text-align: left; */
+   
+}
+header p { 
+    /* grid-column: 2 / 3; */
+    /* text-justify: auto; */
+    /* text-align: ; */
+    padding: 20px;
+    color: #000000;
+
+
+}
+
+/* nav { 
+    display: flex;
+
+} */
+
+
+nav {
+    /* background-color: red; */
+    display: inline;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+nav ul {
+    display: flex;
+    /* background-color: greenyellow; */
+    justify-content: space-between;
+    list-style: none;
+    border: 50px;
+    margin: 50px;
+    /* margin-top: 5px; */
+    margin-bottom: 2px;
+    /* width: 100%; */
+    /* grid-template-columns: 1 / 3; */
+}
+
+nav a {
+    display: flex;
+    color: white;
+    padding: 50px;
+    /* text-align: center; */
+    /* padding: 5rem; */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+/* the Join Chamber button */
+.btn-join {
+    background-color: #9cce51;
+    color: black;
+    /* background-color: #717171; */
+    border-width: 2px;
+    height: 60px;
+    font-size: larger;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* The componect css starts here */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  max-height: 5%;
+  /* height: 30px; */
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  /* color: #95ad71; */
+  color: white;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Tha Hero Image Ends here somehow  */
+
+
+#section {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+#current-event {
+    background-color: #95ad71;
+    /* grid-template-columns: 1 / 2; */
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+}
+
+#weather-card {
+    background-color: #95ad71;
+    /* grid-template-columns: 1 / 2; */
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+
+}
+
+#spotlights {
+    background-color: #95ad71;
+    /* grid-template-columns: 1 / 2; */
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+}
+
+
+footer {
+    /* width: 100%; */
+    text-align: center;
+    background: #310749;
+    height: 100px;
+    width: auto;
+    margin: 50px;
+	margin: auto 50px;
+    color: white;
+    
+}
+footer p {
+    padding: 7px;
+}
+
+#myButton::before {
+    content: "\2630"
+}
+
+#mybutton.open::before {
+    content: "X";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 2rem 2vw;
+}
+
+ul.navigation li a {
+    display: block;
+    padding: 3rem 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+ul.navigation {
+    display: none;
+    list-style-type: none;
+}
+
+ul.navigation.open {
+    display: block;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    /* width: 24px; */
+}

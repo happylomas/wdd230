@@ -1,10 +1,12 @@
 @media (min-width: 550px) {
     nav {
         background-color: rgb(56, 64, 68);
-        display: grid;
+        /* display: grid; */
         border: 50px;
         margin: 50px;
         margin-top: 5px;
+        /* display: flex; */
+        justify-content: space-between;
         /* margin-bottom: 2px; */
         /* grid-template-columns: auto auto; */
     }
@@ -13,6 +15,7 @@
         display: flex;
         justify-content: space-between;
         list-style: none;
+        j
     }
     
     nav a {
@@ -20,5 +23,16 @@
         color: white;
         /* text-align: center; */
         padding: 5rem;
+        justify-content: space-between;
+    }
+
+    #myButton {
+        display: none;
+    }
+
+    ul.navigation {
+        display: flex;
+        justify-content: space-between;
     }
 }
+

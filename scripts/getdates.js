@@ -9,9 +9,13 @@ hamburgerElement.addEventListener("click", () => {
 });
 
 // Dark Mood
-const darkmood = document.querySelector("#darkBtn");
+const darkmood = document.querySelector("#darkmood");
 darkmood.addEventListener("click", () => {
-    main.classList.toggle("dark");
+    if (darkmood.textContent.includes("🕶️")) {
+        main.style.background = "#121212"; // Dark background color
+        main.style.color = "#fff"; // Light text color
+        darkmood.textContent = "X";
+    }
 });
 
 

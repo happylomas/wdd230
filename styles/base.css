@@ -128,7 +128,7 @@ footer {
     content: "\2630"
 }
 
-#mybutton.open::before {
+#myButton.open::before {
     content: "X";
 }
 
@@ -158,10 +158,10 @@ ul.navigation.open {
     display: block;
 }
 
-#darkBtn {
+#darkmood {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 5rem;
     /* width: 24px; */
 }
 

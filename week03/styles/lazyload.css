@@ -1,0 +1,31 @@
+img {
+    display: block;
+    width: 100%;
+    /* border: 20px; */
+    margin: 5px;
+    background-color: aliceblue;
+    animation: fade 15s;
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    /* width: 100%; */
+    text-align: center;
+    background: #396E94;
+    height: 50px;
+    width: auto;
+    margin: 50px;
+	margin: auto 50px;
+    color: white;
+}

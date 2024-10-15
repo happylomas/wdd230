@@ -266,7 +266,7 @@ footer p {
     content: "\2630"
 }
 
-#mybutton.open::before {
+#myButton.open::before {
     content: "X";
 }
 
@@ -288,7 +288,7 @@ ul.navigation li a {
 }
 
 ul.navigation {
-    display: none;
+    /* display: none; */
     list-style-type: none;
 }
 

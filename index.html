@@ -23,9 +23,9 @@
         <span>Prince Chigozirim Ebere</span>
         <!-- <img src="images/darkmood.jpeg" alt="darkmood" id="darkBtn"> -->
          <!-- <span>🕶️</span> -->
-        <button id="darkmood">
-            🕶️
-        </button>
+        <!-- <button id="darkmood">🕶️</button> -->
+        <button id="darkmood">🌙 Toggle Dark Mode</button>
+
         
     </header>
     <a id= "menu" href="a"></a>
@@ -40,6 +40,30 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <img src="images/aba_nigeria_temple_lds.webp" alt="Aba Nigeria Temple" 
+                srcset="images/aba_nigeria_temple_lds-400px.webp 400w, images/aba_nigeria_temple_lds-960px.webp 960w" 
+                sizes="(max-width: 400px) 400px, (min-width: 401px) 960px">
+            </picture>
+            <div class="herolabel">
+                <p>Aba Nigeria Temple</p>
+            </div>
+        </div>
+        <!-- WebP format for mobile (400px) and desktop (960px) -->
+        <!-- <picture><img src="images/aba_nigeria_temple_lds.webp" alt=""></picture>
+        <picture>
+            <source 
+              srcset="images/aba_nigeria_temple_lds.webp 400w, images/aba_nigeria_temple_lds.webp 960w" 
+              sizes="(max-width: 400px) 400px, (min-width: 401px) 960px"
+              type="image/webp">
+        </picture> -->
+        <picture>
+            <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 400px)">
+            <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 960px)">
+            <img src="images/aba_nigeria_temple_lds.webp" alt="table setting" width="1500" height="750">
+          </picture>
+            
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -55,8 +79,9 @@
                     <a href="https://codepen.io/Prince-Ebere/pen/KKOpMxV">Code Pen</a>
                     <a href="">Js Pen</a></li>
                 <li>Week 03<a href="week03/bom.html">Favorite Book of Mormon chapters</a>
-                    <!-- <a href="https://codepen.io/Prince-Ebere/pen/KKOpMxV">Code Pen</a> -->
-                    <a href=""></a></li>
+                    <a href="week03/images/landscape.webp">WebP</a>
+                    <a href="week03/lazyload.html">Lazy Load Activity</a>
+                    <a href="week03/responsive-images.html">Responsive Image</a></li>
                 <li>Week 04</li>
                 <li>Week 05</li>
                 <li>Week 06</li>
@@ -68,6 +93,8 @@
             <p> Weather Information </p>
             <p>Location Information</p>
         </section>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89919.81535975645!2d7.316260855178699!3d5.114669985795139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104299308f30fbf3%3A0x98345ebf0c8cbca1!2sAba%2C%20Abia!5e0!3m2!1sen!2sng!4v1728948466827!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
     </main>
     <footer>

@@ -15,7 +15,6 @@
         display: flex;
         justify-content: space-between;
         list-style: none;
-        j
     }
     
     nav a {
@@ -35,4 +34,28 @@
         justify-content: space-between;
     }
 }
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .hero img {
+        object-position: top left; /* Focus on the top-left part of the image */
+    }
+}
+
+@media (min-width: 401px) and (max-width: 960px) {
+    .hero img {
+        object-position: center; /* Focus on the center of the image */
+    }
+}
+
+@media (min-width: 961px) {
+    .hero img {
+        object-position: top right; /* Focus on the top-right part of the image */
+    }
+}
+
 

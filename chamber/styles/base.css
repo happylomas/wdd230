@@ -261,15 +261,6 @@ footer {
 footer p {
     padding: 7px;
 }
-
-#myButton::before {
-    content: "\2630"
-}
-
-#myButton.open::before {
-    content: "X";
-}
-
 #myButton {
     font-size: 2rem;
     background: none;
@@ -279,6 +270,16 @@ footer p {
     text-align: left;
     padding: 2rem 2vw;
 }
+
+#myButton::before {
+    content: "\2630"
+}
+
+#myButton.open::before {
+    content: "X";
+}
+
+
 
 ul.navigation li a {
     display: block;

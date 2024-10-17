@@ -42,10 +42,10 @@
     <main>
         <div class="hero">
             <picture>
-                <img src="images/aba_nigeria_temple_lds.webp" alt="Aba Nigeria Temple" 
-                srcset="images/aba_nigeria_temple_lds-400px.webp 400w, images/aba_nigeria_temple_lds-960px.webp 960w" 
-                sizes="(max-width: 400px) 400px, (min-width: 401px) 960px">
-            </picture>
+                <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 400px)">
+                <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 960px)">
+                <img src="images/aba_nigeria_temple_lds.webp" alt="table setting" width="1500" height="750">
+              </picture>
             <div class="herolabel">
                 <p>Aba Nigeria Temple</p>
             </div>
@@ -58,11 +58,7 @@
               sizes="(max-width: 400px) 400px, (min-width: 401px) 960px"
               type="image/webp">
         </picture> -->
-        <picture>
-            <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 400px)">
-            <source srcset="images/aba_nigeria_temple_lds.webp" media="(max-width: 960px)">
-            <img src="images/aba_nigeria_temple_lds.webp" alt="table setting" width="1500" height="750">
-          </picture>
+        
             
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
@@ -82,7 +78,8 @@
                     <a href="week03/images/landscape.webp">WebP</a>
                     <a href="week03/lazyload.html">Lazy Load Activity</a>
                     <a href="week03/responsive-images.html">Responsive Image</a></li>
-                <li>Week 04</li>
+                <li>Week 04 <a href="https://codepen.io/Prince-Ebere/pen/eYqWwwv">Pseudo-class Code Pen</a>
+                    <a href="week04/images/div-pcss.PNG">CSS Combinators</a></li>
                 <li>Week 05</li>
                 <li>Week 06</li>
             </ul>

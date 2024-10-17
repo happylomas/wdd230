@@ -5,9 +5,9 @@
         list-style: none;
     }
 
-    button {
+    /* button {
         display: none; /* Hide hamburger button on larger screens */
-    }
+    /* } */ 
 
     ul.navigation {
         display: flex; /* Show navigation as a row */

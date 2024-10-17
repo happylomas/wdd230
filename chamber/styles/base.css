@@ -302,3 +302,35 @@ ul.navigation.open {
     right: 1rem;
     /* width: 24px; */
 }
+
+
+
+/* Sidebar container style */
+.sidebar {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Message text style */
+#sidebar-message {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #006064;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Optional styling for the first visit message */
+.first-visit {
+    color: #006064;
+    font-weight: bold;
+}

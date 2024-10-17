@@ -206,3 +206,20 @@ iframe {
     max-width: 100%;
     border: 0;
 }
+
+
+/* Dscover chamber area */
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+

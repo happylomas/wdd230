@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Chigozirim Ebere - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Prince Chigozirim Ebere - WDD 230 - Web Frontend Development">
+    <meta name="author" content="Prince Chigozirim Ebere - Course Assignment Portal">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- <meta property="og:title" content="The Rock" /> -->
+    <meta property="og:title" content="WDD 230 - Web Frontend Development Main Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://example.com/path/to/your/image.jpg" />
+    <meta property="og:url" content="https://happylomas.github.io/wdd230/index.html" />
+
+</head>
+<body>
+    <header>
+        <img src="images/my_profile_pic.jpeg" alt="photo">
+        <span>Prince Chigozirim Ebere</span>
+        <!-- <img src="images/darkmood.jpeg" alt="darkmood" id="darkBtn"> -->
+         <!-- <span>🕶️</span> -->
+        <!-- <button id="darkmood">🕶️</button> -->
+        <button id="darkmood">🌙 Toggle Dark Mode</button>
+
+        
+    </header>
+    <a id= "menu" href="a"></a>
+    <nav>
+        <button id="myButton"></button>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="record.html" method="get" id="registrationForm">
+
+            <fieldset>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" placeholder="Password must be at least 8 characters long and alpha-numeric"></label>
+                <!-- <label>Confirm Password* <input type="password" id="confirmpassword" name="password" required pattern="[A-Za-z0-9]{8,}" placeholder="Confirm Password"></label> -->
+                 <!-- Confirm Password -->
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span id="passwordError" style="color:red;display:none;">Passwords do not match.</span>
+
+                <label>Email* <input type="email" name="email" placeholder="Please enter a valid BYUI email address (e.g., user@byui.edu)" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+            </fieldset>
+
+            <!-- Page Rating -->
+             <fieldset>
+                <label for="rating">Page Rating</label>
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" oninput="document.getElementById('ratingDisplay').textContent = this.value">
+                <span id="ratingDisplay">5</span>
+             </fieldset>
+            
+
+            <!-- Submit Button -->
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>Prince Ebere: &copy; Abia State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

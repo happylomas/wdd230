@@ -95,6 +95,11 @@ nav .active {
 
 h1 {
     text-align: center;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem;
+    
 }
 
 /* the Join Chamber button */
@@ -334,4 +339,107 @@ ul.navigation.open {
 .first-visit {
     color: #006064;
     font-weight: bold;
+}
+
+
+
+/* Join Form CSS */
+
+.form-container h1 {
+    background-color: #3ace3a;
+}
+
+.form-container {
+    flex: 1 1 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+.form-container label {
+    display: block;
+    padding-top: 1rem;
+    color: #3c8d49;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:required {
+    border-left: red;
+
+}
+
+input:required:valid {
+    border-left: solid 8px green;
+}
+
+input[type="submit"] {
+    background-color: #396E94;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #294764;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.membership-benefits {
+    flex: 1 1 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.membership-benefits h2 {
+    margin-bottom: 10px;
+}
+
+.membership-benefits ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 1rem;
+}
+
+.membership-benefits li {
+    margin: 5px;
+    padding: 1px;
 }

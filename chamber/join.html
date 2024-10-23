@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Application - Aba Chamber of Commerce</title>
+    <meta name="description" content="Aba Chamber of Commerce website development for all kind of trading and business in Aba">
+    <meta name="author" content="Prince Chigozirim Ebere - Aba Chamber of Commerce site">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="../favicon.ico">
+    <meta property = "og:title" content="Aba Chamber of Commerce"/>
+    <meta property = "og:type" content= "Aba Chamber of Commerce Main Page"/>
+    <meta property = "og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnigeriapropertycentre.com%2Farea-guides%2Fabia%2Faba&psig=AOvVaw1Pm-UErVn9FFQkC_lj84Sx&ust=1727469989550000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCvtKy94YgDFQAAAAAdAAAAABAE"/>
+    <meta property = "og:url" content="https://happylomas.github.io/wdd230/index.html"/>
+</head>
+<body>
+    <header>
+        <span>Aba Chamber of Commerce</span>
+        <p>A Market Place For All</p>
+
+        <nav>
+            <button id="myButton"></button>
+            <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="week01/chamber-site-plan.html"> Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+
+        <section class="form-container">
+            <h1>Apply for Membership</h1>
+          
+            <form action="thankyou.html" method="get" id="membershipForm">
+
+                <fieldset>
+                    <label for="firstName">First Name*:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">Last Name*:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="position">Title/Position:</label>
+                    <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" placeholder="Please enter a minimum of seven characters.">
+
+                    <label for="email">Email Address*:</label>
+                 <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+                    <label for="phone">Mobile Phone*:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123456789" required>
+                </fieldset>
+
+                <fieldset>
+                <!-- Business/Organization's Name -->
+                    <label for="businessName">Business/Organization Name*:</label>
+                     <input type="text" id="businessName" name="businessName" required>
+
+                    <label for="membershipLevel">Membership Level:</label>
+                    <select id="membershipLevel" name="membershipLevel" required>
+                        <option value="">Select Membership Level</option>
+                        <option value="NP Membership">NP Membership - No fee</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for="description">Business/Organization's Description:</label>
+                    <textarea id="description" name="description" rows="5"></textarea>
+                </fieldset>
+
+                <!-- Timestamp (Hidden Field) -->
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit Application">
+
+            </form>
+        </section>
+
+        <!-- Membership Level Benefits -->
+        <aside class="membership-benefits">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li><strong>NP Membership:</strong> Access to non-profit events.</li>
+                <li><strong>Bronze Membership:</strong> Event discounts, access to training.</li>
+                <li><strong>Silver Membership:</strong> All Bronze benefits, plus advertising opportunities.</li>
+                <li><strong>Gold Membership:</strong> All Silver benefits, plus VIP event access and special advertising spots.</li>
+            </ul>
+        </aside>
+    </main>
+    
+    <footer>
+    <p>Prince Ebere: &copy; Aba Chamber of Commerce, Abia State Nigeria</p>
+    <p>This is a WDD230 Project.</p>
+    <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
+

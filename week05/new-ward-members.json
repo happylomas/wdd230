@@ -1,0 +1,44 @@
+{
+    "family_name": "Ebere",
+    "date_moved_into_ward": "2022-05-12",
+    "number_of_people_in_family": 7,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "Alaoma Ebere",
+        "gender": "Male",
+        "birthdate": "1980-01-07"
+      },
+      {
+        "name": "Happiness Ebere",
+        "gender": "Female",
+        "birthdate": "2013-08-05"
+      },
+      {
+        "name": "Prince Ebere",
+        "gender": "Male",
+        "birthdate": "1996-01-25"
+      },
+      {
+        "name": "Ugochi Ebere",
+        "gender": "Female",
+        "birthdate": "1998-12-04"
+      },
+      {
+        "name": "Daniel Ebere",
+        "gender": "Male",
+        "birthdate": "2000-01-12"
+      },
+      {
+        "name": "Favour Ebere",
+        "gender": "Female",
+        "birthdate": "2002-02-07"
+      },
+      {
+        "name": "Joseph Ebere",
+        "gender": "Male",
+        "birthdate": "2004-01-13"
+      }
+    ]
+  }
+  

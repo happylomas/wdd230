@@ -1,0 +1,75 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holy Grid Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query ExamplemQueries"
+          },
+          {
+            "url": "week01/chamber-site-plan.html",
+            "title": "Aba Chamber of Commerce Site Plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/bom.html",
+            "title": " Book of Mormon - Top 10"
+          },
+          {
+            "url": "week02/design-principles.html",
+            "title": "Design Principles"
+          }
+          
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Responsive Images Exercise"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Loading"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Table Build"
+          },
+          {
+            "url": "week04/spending-record.html",
+            "title": "Spending Record"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/weather.html",
+            "title": "Weather Information"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "LDS Prophets"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -67,3 +67,71 @@ todayElement.textContent = today;
 christmasElement.textContent = christmasDate.getTime();
 christmasDateElement.textContent = christmasDate;
 daysElement.textContent = `${daysleft.toFixed(0)} days`;
+
+
+
+// For Directory Page
+
+document.addEventListener("DOMContentLoaded", () => {
+    const directory = document.getElementById("memberDirectory");
+
+    // Fetch member data
+    fetch("data/members.json")
+        .then(response => response.json())
+        .then(data => {
+            data.members.forEach(member => {
+                const memberCard = document.createElement("div");
+                memberCard.classList.add("member-card");
+
+                memberCard.innerHTML = `
+                    <img src="images/${member.image}" alt="${member.name} Logo">
+                    <h3>${member.name}</h3>
+                    <p>${member.address}</p>
+                    <p>${member.phone}</p>
+                    <a href="${member.website}" target="_blank">${member.website}</a>
+                    <p>Membership Level: ${member.membershipLevel}</p>
+                    <p>${member.description}</p>
+                `;
+                directory.appendChild(memberCard);
+            });
+        });
+
+    // Toggle between Grid and List view
+    document.getElementById("gridView").addEventListener("click", () => {
+        directory.classList.add("#gridView");
+        directory.classList.remove("#listView");
+    });
+
+    document.getElementById("listView").addEventListener("click", () => {
+        directory.classList.add("#listView");
+        directory.classList.remove("#gridView");
+    });
+
+
+
+    // Copy from Blazzard JS file
+
+const gridbutton = document.querySelector("#gridView");
+const listbutton = document.querySelector("#listView");
+// const display = document.querySelector("article");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
+
+
+
+
+});

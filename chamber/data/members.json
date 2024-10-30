@@ -1,0 +1,69 @@
+{
+    "members": [
+        {
+            "name": "Happy Lomas Company",
+            "address": "off Umuikaa Nkwo okpu Market",
+            "phone": "(+234) 810-046-3952",
+            "website": "https://happylomas.github.io/wdd130/lommywaters/index.html",
+            "image": "abc-logo.png",
+            "membershipLevel": "Gold",
+            "description": "Specializes in Water Purification and Distribution."
+          },
+        {
+            "name": "FaceBook",
+            "address": "1 Hacker Way, Menlo Park, CA",
+            "phone": "(650) 543-4800",
+            "website": "https://web.facebook.com",
+            "image": "abc-logo.png",
+            "membershipLevel": "Exclusive",
+            "description": "Social Media For Personal Use And Business."
+          },
+        {
+            "name": "Happy Lomas Company",
+            "address": "off Umuikaa Nkwo okpu Market",
+            "phone": "(+234) 810-046-3952",
+            "website": "https://happylomas.github.io/wdd130/lommywaters/index.html",
+            "image": "abc-logo.png",
+            "membershipLevel": "Gold",
+            "description": "Specializes in Water Purification and Distribution."
+          },
+        {
+            "name": "Happy Lomas Company",
+            "address": "off Umuikaa Nkwo okpu Market",
+            "phone": "(+234) 810-046-3952",
+            "website": "https://happylomas.github.io/wdd130/lommywaters/index.html",
+            "image": "abc-logo.png",
+            "membershipLevel": "Gold",
+            "description": "Specializes in Water Purification and Distribution."
+          },
+        {
+            "name": "Hitech Construction Company",
+            "address": "Eko Atlantic City, Eti-Osa. Lagos, Nigeria",
+            "phone": "(+234) 810-046-3952",
+            "website": "https://hitech-company.com/",
+            "image": "abc-logo.png",
+            "membershipLevel": "Pro",
+            "description": "Specializes in All Kinds OF Construction."
+          },
+      {
+        "name": "CWay Group",
+        "address": "Plot 98/100, Oshodi, Lagos",
+        "phone": "(+234)-909 8000 999",
+        "website": "https://cwaygroup.com/",
+        "image": "abc-logo.png",
+        "membershipLevel": "Gold",
+        "description": "Brand Products Of Comsumable Drinks."
+      },
+      {
+        "name": "Family Search International",
+        "address": "North Temple Salt Lake City, UT, USA",
+        "phone": "(866)-406-1830",
+        "website": "https://www.familysearch.org/africa/",
+        "image": "xyz-logo.png",
+        "membershipLevel": "Silver",
+        "description": "World Largest Genealogy ."
+      }
+      
+    ]
+  }
+  

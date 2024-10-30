@@ -223,3 +223,27 @@ iframe {
 }
 
 
+.weather {
+    border: 1px solid #5d5f67;
+    background-color: #f6f6fb;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.weather h2 {
+    color: #396E94;
+    margin: .3rem 0;
+}
+
+.weather #description {
+    text-transform: capitalize;
+    color: #305252;
+    margin: .3rem 0;
+}
+
+.weather #description {
+    /* text-transform: capitalize; */
+    font-size: 1rem;
+    color: #305252;
+    margin: .3rem 0;
+}

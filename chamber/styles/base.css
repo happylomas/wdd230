@@ -8,7 +8,7 @@
 
 header {
     display: flex;
-    background-color: #979a9c;
+    /* background-color: black; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     align-items: center;
     padding: 1em;
@@ -79,7 +79,7 @@ nav ul {
 
 nav a {
     display: flex;
-    color: white;
+    /* color: white; */
     padding: 50px;
     /* text-align: center; */
     /* padding: 5rem; */
@@ -289,7 +289,7 @@ footer p {
 ul.navigation li a {
     display: block;
     padding: 3rem 2vw;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 

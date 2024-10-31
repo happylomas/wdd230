@@ -228,6 +228,7 @@ iframe {
     background-color: #f6f6fb;
     border-radius: 1px;
     text-align: center;
+    width: 400px;
 }
 
 .weather h2 {
